@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<!--[if IE 7]><html class="ie7" lang="zh"><![endif]-->
+<!--[if gt IE 7]><!-->
+<html lang="zh">
+  <!--<![endif]-->
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>贾晓磊大事年表</title> <!-- 航空互联 -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="wrapper">
+        <div class="light"><i></i></div>
+        <hr class="line-left">
+        <hr class="line-right">
+        <div class="main">
+          <!-- <h1 class="title">2015</h1> -->
+          <div class="year">
+            <h2><a href="#">2015年<i></i></a></h2>
+            <div class="list">
+              <ul>
+                <li class="cls">
+                  <p class="date">5月5日</p>
+                  <p class="intro">正式入职航空互联</p>
+                  <p class="version">&nbsp;</p>
+                  <div class="more">
+                    <p>5.4 提前一天回来；5.5 入职当天就干活，中午新人破冰各种无节操；然后加班...; </p>
+                    <p>5.9 旧公司员工小聚。第二天周日继续加班。</p>
+                    <p>5.12 和前端加班；</p>
+                    <p>5.13 项目演示；</p>
+                  </div>
+                </li>
+                <li class="cls">
+                  <p class="date">4.28日</p>
+                  <p class="intro">航空互联面试。</p>
+                  <p class="version">&nbsp;</p>
+                  <div class="more">
+                    <p>第一次见李浩，孙波，郑颖，张慧..;</p>
+                    <p>4.29 发录用函；</p>
+                    <p>4.30 到珠海，晚上回复录用函扫描件;</p>
+                  </div>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          
+          <p coler="#177" align="center" margin="10px">
+            © 贾晓磊(130112912217)
+            <p>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-content clearfix">
+            <div class="copyright"> Copyright © 2011-2014  All Rights Reserved </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script>
+          $(".main .year .list").each(function (e, target) {
+          var $target=  $(target),
+          $ul = $target.find("ul");
+          $target.height($ul.outerHeight()), $ul.css("position", "absolute");
+          });
+          $(".main .year>h2>a").click(function (e) {
+          e.preventDefault();
+          $(this).parents(".year").toggleClass("close");
+          });
+        </script>
+      </body>
+    </html>
